@@ -2,9 +2,11 @@ public class Main
 {
     public static void main(String[] args)
     {
-        Feeder l = new Feeder(0);
-        l.simulateManyDays(5, 10);
-        System.out.println (l.getCurrentFood());
+        Feeder k = new Feeder(0);
+        System.out.println(k.simulateManyDays(5, 10));
+        //Feeder l = new Feeder(0);
+        //l.simulateManyDays(5, 10);
+        //System.out.println (l.getCurrentFood());
         //Feeder k = new Feeder(250);
         //k.simulateManyDays(10, 5);
         //System.out.println(k.getCurrentFood());
